@@ -10,23 +10,17 @@ float testArray[8] = {0, 0, 0, 0, 0, 0, 0, 0};
 
 ANN ann;
 
-int numlayers = 3;
-int layers[3] = {8,8,5};
-int bias = 1;
-int activation[2] = {0, 0};
-
-int main()
+void init()
 {
     srand(time(NULL));
     int numlayers = 3;
 	int layers[3] = {8,8,5};
 	int bias = 1;
 	int activation[2] = {0, 0};
-    ann_init(&ann, numlayers, layers, bias, activation);
-    ann_train_batch(&ann, "newData.txt", 10000, 0.001, 1);
+    ann_init_file(&ann, numlayers,layers,bias,activation,"test.txt");    
 }
 
-const char * outputRoadSign(float colour, float shape)
+void outputRoadSign(char ** stringValue, float colour, float shape)
 {
     char* outputValue[50];
     for(int ab = 0; ab < 8; ab++)
@@ -35,12 +29,11 @@ const char * outputRoadSign(float colour, float shape)
     }
 
     if((int)colour != 5)
-        testArray[colour] = 1;
+        testArray[(int)colour] = 1;
 
     if((int)shape!= 5)
-        testArray[shape+3] = 1;
+        testArray[(int)shape+3] = 1;
 
     ann_run(testArray, outputs, &ann);
 
-    return "Hello";
 }
