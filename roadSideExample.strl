@@ -1,0 +1,19 @@
+module roadSideExample
+
+% C functions
+
+function outputRoadSign(float, float): string;
+
+% Use a neural network to produce an output based on the inputs
+
+input shape: float, colour: float;
+output message:string;
+
+[
+    loop
+        pause;
+        emit message(outputRoadSign(?colour, ?shape));
+    end loop
+]
+
+end module
