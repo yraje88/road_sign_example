@@ -54,6 +54,9 @@ ifeq ($(shell uname -s), Linux)
   XESCTYPEFIX=ctype.o
 endif
 
+main: main.c roadSideExample_data.c roadSideExample.c
+	gcc -o main main.c roadSideExample_data.c roadSideExample.c -lm 
+
 
 # intermediate files to keep after compiling
 .PRECIOUS: %.c %.o %_data.o

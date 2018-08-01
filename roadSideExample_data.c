@@ -9,7 +9,6 @@
 #define elementCount(a) (sizeof(a)/sizeof(*a))
 
 // Declare the input and output size
-float inputs[3];
 float outputs[5];
 float testArray[10] = {0, 0, 0, 0, 0, 0, 0, 0};
 
@@ -21,18 +20,17 @@ void init()
 {
     srand(time(NULL));
     int numlayers = 4;
-	int layers[4] = {10,10,5,5};
+	int layers[4] = {10,10,10,5};
 	int bias = 1;
 	int activation[3] = {0,0,0};
-    ann_init_file(&ann, numlayers,layers,bias,activation,"test.txt");   
+    ann_init_file(&ann, numlayers,layers,bias,activation,"ANN_weights.txt");   
     
     //numElements = sizeof(outputs)/sizeof(*outputs);
 }
 
 void outputRoadSign(char ** stringValue, float colour, float shape, float content)
 {
-    char* outputValue[50];
-    sprintf(stringValue, "");
+    char buffer[elementCount(outputs) * 10];
     for(int ab = 0; ab < 8; ab++)
     {
         testArray[ab] = 0;
@@ -59,10 +57,12 @@ void outputRoadSign(char ** stringValue, float colour, float shape, float conten
     if((int)content!= 0)
         testArray[(int)content+7] = 1;
 
+    printf("Inputs: %.0f %.0f %.0f %.0f %.0f %.0f %.0f %.0f %.0f %.0f\n", testArray[0], testArray[1], testArray[2], 
+    testArray[3], testArray[4], testArray[5], testArray[6], testArray[7], testArray[8], testArray[9]);
+
     ann_run(testArray, outputs, &ann);  
    
-    int elements = elementCount(outputs);
-    for(int abc = 0; abc < elements; abc++)    
+    for(int i = 0; i < elementCount(outputs); i++)    
     {
         /*
         if(outputs[abc] < 0.5)
@@ -70,9 +70,7 @@ void outputRoadSign(char ** stringValue, float colour, float shape, float conten
         else 
             outputs[abc]  = 1;
             */
-        sprintf(outputValue, "%.02f ", outputs[abc]);
-    
-        strcat(stringValue, outputValue);
+        sprintf(buffer + i*5, "%.02f ", outputs[i]); 
     }
-    
+    strcpy(stringValue, buffer);
 }
