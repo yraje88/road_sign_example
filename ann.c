@@ -111,7 +111,7 @@ void ann_init_file(ANN * ann, int num_layers, int layers[], int bias, int activa
 	fp = fopen(filename, "r");
 
 	// skip first line (shows layer structure)
-	fscanf(fp, "%*[^\n]\n", NULL);
+	// fscanf(fp, "%*[^\n]\n", NULL);
 
 	ann->num_layers = num_layers;
 	// printf("ANN -> Constructing layers.\n");

@@ -89,8 +89,8 @@ DO_PRAGMA(loopbound min 0 max MAX_LAYERS_LESS1)\
 #define MAX_LAYERS 			10
 #define MAX_LAYERS_LESS1	9
 #define MAX_NEURONS 		10
-#define MAX_WEIGHTS			30
-#define MAX_WEIGHTS_BIAS	50
+#define MAX_WEIGHTS			1000
+#define MAX_WEIGHTS_BIAS	1100
 #define MAX_DATA 			1000
 #define MAX_EPOCHS			10000
 #define LEARNING_RATE 		0.7
