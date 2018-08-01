@@ -1,0 +1,329 @@
+[10, 10, 10, 5]
+1.034515 -3.567640 -5.043580 2.427168 -3.306721 5.932591 -0.140759 -0.911512 1.689283 1.895267 2.008596 -3.325136 0.845819 -2.723636 -3.287875 1.835565 1.022972 -4.609424 2.696755 -3.243946 -1.768804 -4.508615 3.001098 3.142624 -3.698473 4.438081 -1.039148 -3.950088 3.657763 1.685681 -2.198809 -5.830916 0.507814 4.982357 -5.648321 -0.529108 -0.768327 4.495070 -5.029639 3.514045 -2.842722 -3.852515 3.651414 -0.644647 -3.024056 4.001293 -2.959426 -3.655909 -2.698459 -1.158137 -1.651841 -0.571187 -1.015165 3.622082 -0.345093 -4.178526 -3.449335 5.106851 -5.382632 0.908312 -0.486212 -2.136283 -5.055770 3.917728 -3.273110 4.639204 -1.056495 -0.150631 -0.267743 3.583039 -1.131527 -5.290283 -4.824321 2.915362 -2.577755 3.092932 -4.776477 4.335227 -6.881837 1.774341 4.365719 -2.078145 -4.700254 -3.891313 -6.231511 -2.014477 2.479619 2.099770 6.321892 1.187411 1.051432 0.708056 1.033263 1.644196 0.733929 1.052721 1.106301 1.183527 0.828111 1.325704 -8.922233 -4.091097 -9.090107 13.069299 -2.715510 5.271697 -10.332397 11.468288 -10.382341 3.351664 
+-1.651841 -0.571187 -1.015165 3.622082 -0.345093 -4.178526 -3.449335 5.106851 -5.382632 0.908312 -0.486212 -2.136283 -5.055770 3.917728 -3.273110 4.639204 -1.056495 -0.150631 -0.267743 3.583039 -1.131527 -5.290283 -4.824321 2.915362 -2.577755 3.092932 -4.776477 4.335227 -6.881837 1.774341 4.365719 -2.078145 -4.700254 -3.891313 -6.231511 -2.014477 2.479619 2.099770 6.321892 1.187411 1.051432 0.708056 1.033263 1.644196 0.733929 1.052721 1.106301 1.183527 0.828111 1.325704 -8.922233 -4.091097 -9.090107 13.069299 -2.715510 5.271697 -10.332397 11.468288 -10.382341 3.351664 -2.104280 0.965952 0.345801 2.280286 0.279342 -2.524529 -2.819983 2.386734 -0.340130 -0.173059 -0.822541 -3.096537 -3.172767 -1.574066 -0.713167 1.672977 0.736435 -0.924960 1.849812 -0.461835 -1.968485 1.774577 0.284450 -0.081680 1.612422 -1.394726 -4.176060 0.029570 -3.059152 -0.874468 -2.830920 0.728475 -5.241644 1.732764 0.544084 -0.738188 -0.666298 1.413299 -0.181302 -0.556321 -1.953483 -1.086695 0.348682 0.563211 0.926830 -4.708254 0.205337 1.609135 2.506823 2.086324 
+-8.922233 -4.091097 -9.090107 13.069299 -2.715510 5.271697 -10.332397 11.468288 -10.382341 3.351664 -2.104280 0.965952 0.345801 2.280286 0.279342 -2.524529 -2.819983 2.386734 -0.340130 -0.173059 -0.822541 -3.096537 -3.172767 -1.574066 -0.713167 1.672977 0.736435 -0.924960 1.849812 -0.461835 -1.968485 1.774577 0.284450 -0.081680 1.612422 -1.394726 -4.176060 0.029570 -3.059152 -0.874468 -2.830920 0.728475 -5.241644 1.732764 0.544084 -0.738188 -0.666298 1.413299 -0.181302 -0.556321 -1.953483 -1.086695 0.348682 0.563211 0.926830 
+1.034515, -3.567640, -5.043580, 2.427168, -3.306721, 5.932591, -0.140759, -0.911512, 1.689283, 1.895267, 2.008596, -3.325136, 0.845819, -2.723636, -3.287875, 1.835565, 1.022972, -4.609424, 2.696755, -3.243946, -1.768804, -4.508615, 3.001098, 3.142624, -3.698473, 4.438081, -1.039148, -3.950088, 3.657763, 1.685681, -2.198809, -5.830916, 0.507814, 4.982357, -5.648321, -0.529108, -0.768327, 4.495070, -5.029639, 3.514045, -2.842722, -3.852515, 3.651414, -0.644647, -3.024056, 4.001293, -2.959426, -3.655909, -2.698459, -1.158137, -1.651841, -0.571187, -1.015165, 3.622082, -0.345093, -4.178526, -3.449335, 5.106851, -5.382632, 0.908312, -0.486212, -2.136283, -5.055770, 3.917728, -3.273110, 4.639204, -1.056495, -0.150631, -0.267743, 3.583039, -1.131527, -5.290283, -4.824321, 2.915362, -2.577755, 3.092932, -4.776477, 4.335227, -6.881837, 1.774341, 4.365719, -2.078145, -4.700254, -3.891313, -6.231511, -2.014477, 2.479619, 2.099770, 6.321892, 1.187411, 1.051432, 0.708056, 1.033263, 1.644196, 0.733929, 1.052721, 1.106301, 1.183527, 0.828111, 1.325704, -8.922233, -4.091097, -9.090107, 13.069299, -2.715510, 5.271697, -10.332397, 11.468288, -10.382341, 3.351664, 
+-1.651841, -0.571187, -1.015165, 3.622082, -0.345093, -4.178526, -3.449335, 5.106851, -5.382632, 0.908312, -0.486212, -2.136283, -5.055770, 3.917728, -3.273110, 4.639204, -1.056495, -0.150631, -0.267743, 3.583039, -1.131527, -5.290283, -4.824321, 2.915362, -2.577755, 3.092932, -4.776477, 4.335227, -6.881837, 1.774341, 4.365719, -2.078145, -4.700254, -3.891313, -6.231511, -2.014477, 2.479619, 2.099770, 6.321892, 1.187411, 1.051432, 0.708056, 1.033263, 1.644196, 0.733929, 1.052721, 1.106301, 1.183527, 0.828111, 1.325704, -8.922233, -4.091097, -9.090107, 13.069299, -2.715510, 5.271697, -10.332397, 11.468288, -10.382341, 3.351664, -2.104280, 0.965952, 0.345801, 2.280286, 0.279342, -2.524529, -2.819983, 2.386734, -0.340130, -0.173059, -0.822541, -3.096537, -3.172767, -1.574066, -0.713167, 1.672977, 0.736435, -0.924960, 1.849812, -0.461835, -1.968485, 1.774577, 0.284450, -0.081680, 1.612422, -1.394726, -4.176060, 0.029570, -3.059152, -0.874468, -2.830920, 0.728475, -5.241644, 1.732764, 0.544084, -0.738188, -0.666298, 1.413299, -0.181302, -0.556321, -1.953483, -1.086695, 0.348682, 0.563211, 0.926830, -4.708254, 0.205337, 1.609135, 2.506823, 2.086324, 
+-8.922233, -4.091097, -9.090107, 13.069299, -2.715510, 5.271697, -10.332397, 11.468288, -10.382341, 3.351664, -2.104280, 0.965952, 0.345801, 2.280286, 0.279342, -2.524529, -2.819983, 2.386734, -0.340130, -0.173059, -0.822541, -3.096537, -3.172767, -1.574066, -0.713167, 1.672977, 0.736435, -0.924960, 1.849812, -0.461835, -1.968485, 1.774577, 0.284450, -0.081680, 1.612422, -1.394726, -4.176060, 0.029570, -3.059152, -0.874468, -2.830920, 0.728475, -5.241644, 1.732764, 0.544084, -0.738188, -0.666298, 1.413299, -0.181302, -0.556321, -1.953483, -1.086695, 0.348682, 0.563211, 0.926830, 
+NUMBER OF LAYERS: 4
+NUMBER OF INPUTS: 10
+NUMBER OF OUTPUTS: 5
+NEURONS PER LAYER: 10 -> 10 -> 10 -> 5
+THIS NEURAL NETWORK HAS BIAS NEURONS
+ACTIVATION FUNCTION: SIGMOID, SIGMOID, SIGMOID]
+<============ Listing LAYER 0 ============>
+
+LAYER 0 NEURON 0 has 10 connections to LAYER 1:
+-> Connection to NEURON 0 in LAYER 1 has a WEIGHT of 1.034515
+-> Connection to NEURON 1 in LAYER 1 has a WEIGHT of 2.008596
+-> Connection to NEURON 2 in LAYER 1 has a WEIGHT of -1.768804
+-> Connection to NEURON 3 in LAYER 1 has a WEIGHT of -2.198809
+-> Connection to NEURON 4 in LAYER 1 has a WEIGHT of -2.842722
+-> Connection to NEURON 5 in LAYER 1 has a WEIGHT of -1.651841
+-> Connection to NEURON 6 in LAYER 1 has a WEIGHT of -0.486212
+-> Connection to NEURON 7 in LAYER 1 has a WEIGHT of -1.131527
+-> Connection to NEURON 8 in LAYER 1 has a WEIGHT of 4.365719
+-> Connection to NEURON 9 in LAYER 1 has a WEIGHT of 1.051432
+LAYER 0 NEURON 1 has 10 connections to LAYER 1:
+-> Connection to NEURON 0 in LAYER 1 has a WEIGHT of -3.567640
+-> Connection to NEURON 1 in LAYER 1 has a WEIGHT of -3.325136
+-> Connection to NEURON 2 in LAYER 1 has a WEIGHT of -4.508615
+-> Connection to NEURON 3 in LAYER 1 has a WEIGHT of -5.830916
+-> Connection to NEURON 4 in LAYER 1 has a WEIGHT of -3.852515
+-> Connection to NEURON 5 in LAYER 1 has a WEIGHT of -0.571187
+-> Connection to NEURON 6 in LAYER 1 has a WEIGHT of -2.136283
+-> Connection to NEURON 7 in LAYER 1 has a WEIGHT of -5.290283
+-> Connection to NEURON 8 in LAYER 1 has a WEIGHT of -2.078145
+-> Connection to NEURON 9 in LAYER 1 has a WEIGHT of 0.708056
+LAYER 0 NEURON 2 has 10 connections to LAYER 1:
+-> Connection to NEURON 0 in LAYER 1 has a WEIGHT of -5.043580
+-> Connection to NEURON 1 in LAYER 1 has a WEIGHT of 0.845819
+-> Connection to NEURON 2 in LAYER 1 has a WEIGHT of 3.001098
+-> Connection to NEURON 3 in LAYER 1 has a WEIGHT of 0.507814
+-> Connection to NEURON 4 in LAYER 1 has a WEIGHT of 3.651414
+-> Connection to NEURON 5 in LAYER 1 has a WEIGHT of -1.015165
+-> Connection to NEURON 6 in LAYER 1 has a WEIGHT of -5.055770
+-> Connection to NEURON 7 in LAYER 1 has a WEIGHT of -4.824321
+-> Connection to NEURON 8 in LAYER 1 has a WEIGHT of -4.700254
+-> Connection to NEURON 9 in LAYER 1 has a WEIGHT of 1.033263
+LAYER 0 NEURON 3 has 10 connections to LAYER 1:
+-> Connection to NEURON 0 in LAYER 1 has a WEIGHT of 2.427168
+-> Connection to NEURON 1 in LAYER 1 has a WEIGHT of -2.723636
+-> Connection to NEURON 2 in LAYER 1 has a WEIGHT of 3.142624
+-> Connection to NEURON 3 in LAYER 1 has a WEIGHT of 4.982357
+-> Connection to NEURON 4 in LAYER 1 has a WEIGHT of -0.644647
+-> Connection to NEURON 5 in LAYER 1 has a WEIGHT of 3.622082
+-> Connection to NEURON 6 in LAYER 1 has a WEIGHT of 3.917728
+-> Connection to NEURON 7 in LAYER 1 has a WEIGHT of 2.915362
+-> Connection to NEURON 8 in LAYER 1 has a WEIGHT of -3.891313
+-> Connection to NEURON 9 in LAYER 1 has a WEIGHT of 1.644196
+LAYER 0 NEURON 4 has 10 connections to LAYER 1:
+-> Connection to NEURON 0 in LAYER 1 has a WEIGHT of -3.306721
+-> Connection to NEURON 1 in LAYER 1 has a WEIGHT of -3.287875
+-> Connection to NEURON 2 in LAYER 1 has a WEIGHT of -3.698473
+-> Connection to NEURON 3 in LAYER 1 has a WEIGHT of -5.648321
+-> Connection to NEURON 4 in LAYER 1 has a WEIGHT of -3.024056
+-> Connection to NEURON 5 in LAYER 1 has a WEIGHT of -0.345093
+-> Connection to NEURON 6 in LAYER 1 has a WEIGHT of -3.273110
+-> Connection to NEURON 7 in LAYER 1 has a WEIGHT of -2.577755
+-> Connection to NEURON 8 in LAYER 1 has a WEIGHT of -6.231511
+-> Connection to NEURON 9 in LAYER 1 has a WEIGHT of 0.733929
+LAYER 0 NEURON 5 has 10 connections to LAYER 1:
+-> Connection to NEURON 0 in LAYER 1 has a WEIGHT of 5.932591
+-> Connection to NEURON 1 in LAYER 1 has a WEIGHT of 1.835565
+-> Connection to NEURON 2 in LAYER 1 has a WEIGHT of 4.438081
+-> Connection to NEURON 3 in LAYER 1 has a WEIGHT of -0.529108
+-> Connection to NEURON 4 in LAYER 1 has a WEIGHT of 4.001293
+-> Connection to NEURON 5 in LAYER 1 has a WEIGHT of -4.178526
+-> Connection to NEURON 6 in LAYER 1 has a WEIGHT of 4.639204
+-> Connection to NEURON 7 in LAYER 1 has a WEIGHT of 3.092932
+-> Connection to NEURON 8 in LAYER 1 has a WEIGHT of -2.014477
+-> Connection to NEURON 9 in LAYER 1 has a WEIGHT of 1.052721
+LAYER 0 NEURON 6 has 10 connections to LAYER 1:
+-> Connection to NEURON 0 in LAYER 1 has a WEIGHT of -0.140759
+-> Connection to NEURON 1 in LAYER 1 has a WEIGHT of 1.022972
+-> Connection to NEURON 2 in LAYER 1 has a WEIGHT of -1.039148
+-> Connection to NEURON 3 in LAYER 1 has a WEIGHT of -0.768327
+-> Connection to NEURON 4 in LAYER 1 has a WEIGHT of -2.959426
+-> Connection to NEURON 5 in LAYER 1 has a WEIGHT of -3.449335
+-> Connection to NEURON 6 in LAYER 1 has a WEIGHT of -1.056495
+-> Connection to NEURON 7 in LAYER 1 has a WEIGHT of -4.776477
+-> Connection to NEURON 8 in LAYER 1 has a WEIGHT of 2.479619
+-> Connection to NEURON 9 in LAYER 1 has a WEIGHT of 1.106301
+LAYER 0 NEURON 7 has 10 connections to LAYER 1:
+-> Connection to NEURON 0 in LAYER 1 has a WEIGHT of -0.911512
+-> Connection to NEURON 1 in LAYER 1 has a WEIGHT of -4.609424
+-> Connection to NEURON 2 in LAYER 1 has a WEIGHT of -3.950088
+-> Connection to NEURON 3 in LAYER 1 has a WEIGHT of 4.495070
+-> Connection to NEURON 4 in LAYER 1 has a WEIGHT of -3.655909
+-> Connection to NEURON 5 in LAYER 1 has a WEIGHT of 5.106851
+-> Connection to NEURON 6 in LAYER 1 has a WEIGHT of -0.150631
+-> Connection to NEURON 7 in LAYER 1 has a WEIGHT of 4.335227
+-> Connection to NEURON 8 in LAYER 1 has a WEIGHT of 2.099770
+-> Connection to NEURON 9 in LAYER 1 has a WEIGHT of 1.183527
+LAYER 0 NEURON 8 has 10 connections to LAYER 1:
+-> Connection to NEURON 0 in LAYER 1 has a WEIGHT of 1.689283
+-> Connection to NEURON 1 in LAYER 1 has a WEIGHT of 2.696755
+-> Connection to NEURON 2 in LAYER 1 has a WEIGHT of 3.657763
+-> Connection to NEURON 3 in LAYER 1 has a WEIGHT of -5.029639
+-> Connection to NEURON 4 in LAYER 1 has a WEIGHT of -2.698459
+-> Connection to NEURON 5 in LAYER 1 has a WEIGHT of -5.382632
+-> Connection to NEURON 6 in LAYER 1 has a WEIGHT of -0.267743
+-> Connection to NEURON 7 in LAYER 1 has a WEIGHT of -6.881837
+-> Connection to NEURON 8 in LAYER 1 has a WEIGHT of 6.321892
+-> Connection to NEURON 9 in LAYER 1 has a WEIGHT of 0.828111
+LAYER 0 NEURON 9 has 10 connections to LAYER 1:
+-> Connection to NEURON 0 in LAYER 1 has a WEIGHT of 1.895267
+-> Connection to NEURON 1 in LAYER 1 has a WEIGHT of -3.243946
+-> Connection to NEURON 2 in LAYER 1 has a WEIGHT of 1.685681
+-> Connection to NEURON 3 in LAYER 1 has a WEIGHT of 3.514045
+-> Connection to NEURON 4 in LAYER 1 has a WEIGHT of -1.158137
+-> Connection to NEURON 5 in LAYER 1 has a WEIGHT of 0.908312
+-> Connection to NEURON 6 in LAYER 1 has a WEIGHT of 3.583039
+-> Connection to NEURON 7 in LAYER 1 has a WEIGHT of 1.774341
+-> Connection to NEURON 8 in LAYER 1 has a WEIGHT of 1.187411
+-> Connection to NEURON 9 in LAYER 1 has a WEIGHT of 1.325704
+LAYER 0 has a BIAS NEURON with 10 connections
+-> Connection to NEURON 0 in LAYER 1 has a WEIGHT of -8.922233
+-> Connection to NEURON 1 in LAYER 1 has a WEIGHT of -4.091097
+-> Connection to NEURON 2 in LAYER 1 has a WEIGHT of -9.090107
+-> Connection to NEURON 3 in LAYER 1 has a WEIGHT of 13.069299
+-> Connection to NEURON 4 in LAYER 1 has a WEIGHT of -2.715510
+-> Connection to NEURON 5 in LAYER 1 has a WEIGHT of 5.271697
+-> Connection to NEURON 6 in LAYER 1 has a WEIGHT of -10.332397
+-> Connection to NEURON 7 in LAYER 1 has a WEIGHT of 11.468288
+-> Connection to NEURON 8 in LAYER 1 has a WEIGHT of -10.382341
+-> Connection to NEURON 9 in LAYER 1 has a WEIGHT of 3.351664
+
+<============ Listing LAYER 1 ============>
+
+LAYER 1 NEURON 0 has 10 connections to LAYER 2:
+-> Connection to NEURON 0 in LAYER 2 has a WEIGHT of -1.651841
+-> Connection to NEURON 1 in LAYER 2 has a WEIGHT of -0.486212
+-> Connection to NEURON 2 in LAYER 2 has a WEIGHT of -1.131527
+-> Connection to NEURON 3 in LAYER 2 has a WEIGHT of 4.365719
+-> Connection to NEURON 4 in LAYER 2 has a WEIGHT of 1.051432
+-> Connection to NEURON 5 in LAYER 2 has a WEIGHT of -8.922233
+-> Connection to NEURON 6 in LAYER 2 has a WEIGHT of -2.104280
+-> Connection to NEURON 7 in LAYER 2 has a WEIGHT of -0.822541
+-> Connection to NEURON 8 in LAYER 2 has a WEIGHT of -1.968485
+-> Connection to NEURON 9 in LAYER 2 has a WEIGHT of -2.830920
+LAYER 1 NEURON 1 has 10 connections to LAYER 2:
+-> Connection to NEURON 0 in LAYER 2 has a WEIGHT of -0.571187
+-> Connection to NEURON 1 in LAYER 2 has a WEIGHT of -2.136283
+-> Connection to NEURON 2 in LAYER 2 has a WEIGHT of -5.290283
+-> Connection to NEURON 3 in LAYER 2 has a WEIGHT of -2.078145
+-> Connection to NEURON 4 in LAYER 2 has a WEIGHT of 0.708056
+-> Connection to NEURON 5 in LAYER 2 has a WEIGHT of -4.091097
+-> Connection to NEURON 6 in LAYER 2 has a WEIGHT of 0.965952
+-> Connection to NEURON 7 in LAYER 2 has a WEIGHT of -3.096537
+-> Connection to NEURON 8 in LAYER 2 has a WEIGHT of 1.774577
+-> Connection to NEURON 9 in LAYER 2 has a WEIGHT of 0.728475
+LAYER 1 NEURON 2 has 10 connections to LAYER 2:
+-> Connection to NEURON 0 in LAYER 2 has a WEIGHT of -1.015165
+-> Connection to NEURON 1 in LAYER 2 has a WEIGHT of -5.055770
+-> Connection to NEURON 2 in LAYER 2 has a WEIGHT of -4.824321
+-> Connection to NEURON 3 in LAYER 2 has a WEIGHT of -4.700254
+-> Connection to NEURON 4 in LAYER 2 has a WEIGHT of 1.033263
+-> Connection to NEURON 5 in LAYER 2 has a WEIGHT of -9.090107
+-> Connection to NEURON 6 in LAYER 2 has a WEIGHT of 0.345801
+-> Connection to NEURON 7 in LAYER 2 has a WEIGHT of -3.172767
+-> Connection to NEURON 8 in LAYER 2 has a WEIGHT of 0.284450
+-> Connection to NEURON 9 in LAYER 2 has a WEIGHT of -5.241644
+LAYER 1 NEURON 3 has 10 connections to LAYER 2:
+-> Connection to NEURON 0 in LAYER 2 has a WEIGHT of 3.622082
+-> Connection to NEURON 1 in LAYER 2 has a WEIGHT of 3.917728
+-> Connection to NEURON 2 in LAYER 2 has a WEIGHT of 2.915362
+-> Connection to NEURON 3 in LAYER 2 has a WEIGHT of -3.891313
+-> Connection to NEURON 4 in LAYER 2 has a WEIGHT of 1.644196
+-> Connection to NEURON 5 in LAYER 2 has a WEIGHT of 13.069299
+-> Connection to NEURON 6 in LAYER 2 has a WEIGHT of 2.280286
+-> Connection to NEURON 7 in LAYER 2 has a WEIGHT of -1.574066
+-> Connection to NEURON 8 in LAYER 2 has a WEIGHT of -0.081680
+-> Connection to NEURON 9 in LAYER 2 has a WEIGHT of 1.732764
+LAYER 1 NEURON 4 has 10 connections to LAYER 2:
+-> Connection to NEURON 0 in LAYER 2 has a WEIGHT of -0.345093
+-> Connection to NEURON 1 in LAYER 2 has a WEIGHT of -3.273110
+-> Connection to NEURON 2 in LAYER 2 has a WEIGHT of -2.577755
+-> Connection to NEURON 3 in LAYER 2 has a WEIGHT of -6.231511
+-> Connection to NEURON 4 in LAYER 2 has a WEIGHT of 0.733929
+-> Connection to NEURON 5 in LAYER 2 has a WEIGHT of -2.715510
+-> Connection to NEURON 6 in LAYER 2 has a WEIGHT of 0.279342
+-> Connection to NEURON 7 in LAYER 2 has a WEIGHT of -0.713167
+-> Connection to NEURON 8 in LAYER 2 has a WEIGHT of 1.612422
+-> Connection to NEURON 9 in LAYER 2 has a WEIGHT of 0.544084
+LAYER 1 NEURON 5 has 10 connections to LAYER 2:
+-> Connection to NEURON 0 in LAYER 2 has a WEIGHT of -4.178526
+-> Connection to NEURON 1 in LAYER 2 has a WEIGHT of 4.639204
+-> Connection to NEURON 2 in LAYER 2 has a WEIGHT of 3.092932
+-> Connection to NEURON 3 in LAYER 2 has a WEIGHT of -2.014477
+-> Connection to NEURON 4 in LAYER 2 has a WEIGHT of 1.052721
+-> Connection to NEURON 5 in LAYER 2 has a WEIGHT of 5.271697
+-> Connection to NEURON 6 in LAYER 2 has a WEIGHT of -2.524529
+-> Connection to NEURON 7 in LAYER 2 has a WEIGHT of 1.672977
+-> Connection to NEURON 8 in LAYER 2 has a WEIGHT of -1.394726
+-> Connection to NEURON 9 in LAYER 2 has a WEIGHT of -0.738188
+LAYER 1 NEURON 6 has 10 connections to LAYER 2:
+-> Connection to NEURON 0 in LAYER 2 has a WEIGHT of -3.449335
+-> Connection to NEURON 1 in LAYER 2 has a WEIGHT of -1.056495
+-> Connection to NEURON 2 in LAYER 2 has a WEIGHT of -4.776477
+-> Connection to NEURON 3 in LAYER 2 has a WEIGHT of 2.479619
+-> Connection to NEURON 4 in LAYER 2 has a WEIGHT of 1.106301
+-> Connection to NEURON 5 in LAYER 2 has a WEIGHT of -10.332397
+-> Connection to NEURON 6 in LAYER 2 has a WEIGHT of -2.819983
+-> Connection to NEURON 7 in LAYER 2 has a WEIGHT of 0.736435
+-> Connection to NEURON 8 in LAYER 2 has a WEIGHT of -4.176060
+-> Connection to NEURON 9 in LAYER 2 has a WEIGHT of -0.666298
+LAYER 1 NEURON 7 has 10 connections to LAYER 2:
+-> Connection to NEURON 0 in LAYER 2 has a WEIGHT of 5.106851
+-> Connection to NEURON 1 in LAYER 2 has a WEIGHT of -0.150631
+-> Connection to NEURON 2 in LAYER 2 has a WEIGHT of 4.335227
+-> Connection to NEURON 3 in LAYER 2 has a WEIGHT of 2.099770
+-> Connection to NEURON 4 in LAYER 2 has a WEIGHT of 1.183527
+-> Connection to NEURON 5 in LAYER 2 has a WEIGHT of 11.468288
+-> Connection to NEURON 6 in LAYER 2 has a WEIGHT of 2.386734
+-> Connection to NEURON 7 in LAYER 2 has a WEIGHT of -0.924960
+-> Connection to NEURON 8 in LAYER 2 has a WEIGHT of 0.029570
+-> Connection to NEURON 9 in LAYER 2 has a WEIGHT of 1.413299
+LAYER 1 NEURON 8 has 10 connections to LAYER 2:
+-> Connection to NEURON 0 in LAYER 2 has a WEIGHT of -5.382632
+-> Connection to NEURON 1 in LAYER 2 has a WEIGHT of -0.267743
+-> Connection to NEURON 2 in LAYER 2 has a WEIGHT of -6.881837
+-> Connection to NEURON 3 in LAYER 2 has a WEIGHT of 6.321892
+-> Connection to NEURON 4 in LAYER 2 has a WEIGHT of 0.828111
+-> Connection to NEURON 5 in LAYER 2 has a WEIGHT of -10.382341
+-> Connection to NEURON 6 in LAYER 2 has a WEIGHT of -0.340130
+-> Connection to NEURON 7 in LAYER 2 has a WEIGHT of 1.849812
+-> Connection to NEURON 8 in LAYER 2 has a WEIGHT of -3.059152
+-> Connection to NEURON 9 in LAYER 2 has a WEIGHT of -0.181302
+LAYER 1 NEURON 9 has 10 connections to LAYER 2:
+-> Connection to NEURON 0 in LAYER 2 has a WEIGHT of 0.908312
+-> Connection to NEURON 1 in LAYER 2 has a WEIGHT of 3.583039
+-> Connection to NEURON 2 in LAYER 2 has a WEIGHT of 1.774341
+-> Connection to NEURON 3 in LAYER 2 has a WEIGHT of 1.187411
+-> Connection to NEURON 4 in LAYER 2 has a WEIGHT of 1.325704
+-> Connection to NEURON 5 in LAYER 2 has a WEIGHT of 3.351664
+-> Connection to NEURON 6 in LAYER 2 has a WEIGHT of -0.173059
+-> Connection to NEURON 7 in LAYER 2 has a WEIGHT of -0.461835
+-> Connection to NEURON 8 in LAYER 2 has a WEIGHT of -0.874468
+-> Connection to NEURON 9 in LAYER 2 has a WEIGHT of -0.556321
+LAYER 1 has a BIAS NEURON with 10 connections
+-> Connection to NEURON 0 in LAYER 2 has a WEIGHT of -1.953483
+-> Connection to NEURON 1 in LAYER 2 has a WEIGHT of -1.086695
+-> Connection to NEURON 2 in LAYER 2 has a WEIGHT of 0.348682
+-> Connection to NEURON 3 in LAYER 2 has a WEIGHT of 0.563211
+-> Connection to NEURON 4 in LAYER 2 has a WEIGHT of 0.926830
+-> Connection to NEURON 5 in LAYER 2 has a WEIGHT of -4.708254
+-> Connection to NEURON 6 in LAYER 2 has a WEIGHT of 0.205337
+-> Connection to NEURON 7 in LAYER 2 has a WEIGHT of 1.609135
+-> Connection to NEURON 8 in LAYER 2 has a WEIGHT of 2.506823
+-> Connection to NEURON 9 in LAYER 2 has a WEIGHT of 2.086324
+
+<============ Listing LAYER 2 ============>
+
+LAYER 2 NEURON 0 has 5 connections to LAYER 3:
+-> Connection to NEURON 0 in LAYER 3 has a WEIGHT of -8.922233
+-> Connection to NEURON 1 in LAYER 3 has a WEIGHT of -2.104280
+-> Connection to NEURON 2 in LAYER 3 has a WEIGHT of -0.822541
+-> Connection to NEURON 3 in LAYER 3 has a WEIGHT of -1.968485
+-> Connection to NEURON 4 in LAYER 3 has a WEIGHT of -2.830920
+LAYER 2 NEURON 1 has 5 connections to LAYER 3:
+-> Connection to NEURON 0 in LAYER 3 has a WEIGHT of -4.091097
+-> Connection to NEURON 1 in LAYER 3 has a WEIGHT of 0.965952
+-> Connection to NEURON 2 in LAYER 3 has a WEIGHT of -3.096537
+-> Connection to NEURON 3 in LAYER 3 has a WEIGHT of 1.774577
+-> Connection to NEURON 4 in LAYER 3 has a WEIGHT of 0.728475
+LAYER 2 NEURON 2 has 5 connections to LAYER 3:
+-> Connection to NEURON 0 in LAYER 3 has a WEIGHT of -9.090107
+-> Connection to NEURON 1 in LAYER 3 has a WEIGHT of 0.345801
+-> Connection to NEURON 2 in LAYER 3 has a WEIGHT of -3.172767
+-> Connection to NEURON 3 in LAYER 3 has a WEIGHT of 0.284450
+-> Connection to NEURON 4 in LAYER 3 has a WEIGHT of -5.241644
+LAYER 2 NEURON 3 has 5 connections to LAYER 3:
+-> Connection to NEURON 0 in LAYER 3 has a WEIGHT of 13.069299
+-> Connection to NEURON 1 in LAYER 3 has a WEIGHT of 2.280286
+-> Connection to NEURON 2 in LAYER 3 has a WEIGHT of -1.574066
+-> Connection to NEURON 3 in LAYER 3 has a WEIGHT of -0.081680
+-> Connection to NEURON 4 in LAYER 3 has a WEIGHT of 1.732764
+LAYER 2 NEURON 4 has 5 connections to LAYER 3:
+-> Connection to NEURON 0 in LAYER 3 has a WEIGHT of -2.715510
+-> Connection to NEURON 1 in LAYER 3 has a WEIGHT of 0.279342
+-> Connection to NEURON 2 in LAYER 3 has a WEIGHT of -0.713167
+-> Connection to NEURON 3 in LAYER 3 has a WEIGHT of 1.612422
+-> Connection to NEURON 4 in LAYER 3 has a WEIGHT of 0.544084
+LAYER 2 NEURON 5 has 5 connections to LAYER 3:
+-> Connection to NEURON 0 in LAYER 3 has a WEIGHT of 5.271697
+-> Connection to NEURON 1 in LAYER 3 has a WEIGHT of -2.524529
+-> Connection to NEURON 2 in LAYER 3 has a WEIGHT of 1.672977
+-> Connection to NEURON 3 in LAYER 3 has a WEIGHT of -1.394726
+-> Connection to NEURON 4 in LAYER 3 has a WEIGHT of -0.738188
+LAYER 2 NEURON 6 has 5 connections to LAYER 3:
+-> Connection to NEURON 0 in LAYER 3 has a WEIGHT of -10.332397
+-> Connection to NEURON 1 in LAYER 3 has a WEIGHT of -2.819983
+-> Connection to NEURON 2 in LAYER 3 has a WEIGHT of 0.736435
+-> Connection to NEURON 3 in LAYER 3 has a WEIGHT of -4.176060
+-> Connection to NEURON 4 in LAYER 3 has a WEIGHT of -0.666298
+LAYER 2 NEURON 7 has 5 connections to LAYER 3:
+-> Connection to NEURON 0 in LAYER 3 has a WEIGHT of 11.468288
+-> Connection to NEURON 1 in LAYER 3 has a WEIGHT of 2.386734
+-> Connection to NEURON 2 in LAYER 3 has a WEIGHT of -0.924960
+-> Connection to NEURON 3 in LAYER 3 has a WEIGHT of 0.029570
+-> Connection to NEURON 4 in LAYER 3 has a WEIGHT of 1.413299
+LAYER 2 NEURON 8 has 5 connections to LAYER 3:
+-> Connection to NEURON 0 in LAYER 3 has a WEIGHT of -10.382341
+-> Connection to NEURON 1 in LAYER 3 has a WEIGHT of -0.340130
+-> Connection to NEURON 2 in LAYER 3 has a WEIGHT of 1.849812
+-> Connection to NEURON 3 in LAYER 3 has a WEIGHT of -3.059152
+-> Connection to NEURON 4 in LAYER 3 has a WEIGHT of -0.181302
+LAYER 2 NEURON 9 has 5 connections to LAYER 3:
+-> Connection to NEURON 0 in LAYER 3 has a WEIGHT of 3.351664
+-> Connection to NEURON 1 in LAYER 3 has a WEIGHT of -0.173059
+-> Connection to NEURON 2 in LAYER 3 has a WEIGHT of -0.461835
+-> Connection to NEURON 3 in LAYER 3 has a WEIGHT of -0.874468
+-> Connection to NEURON 4 in LAYER 3 has a WEIGHT of -0.556321
+LAYER 2 has a BIAS NEURON with 5 connections
+-> Connection to NEURON 0 in LAYER 3 has a WEIGHT of -1.953483
+-> Connection to NEURON 1 in LAYER 3 has a WEIGHT of -1.086695
+-> Connection to NEURON 2 in LAYER 3 has a WEIGHT of 0.348682
+-> Connection to NEURON 3 in LAYER 3 has a WEIGHT of 0.563211
+-> Connection to NEURON 4 in LAYER 3 has a WEIGHT of 0.926830
