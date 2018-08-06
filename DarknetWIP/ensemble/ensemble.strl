@@ -1,0 +1,58 @@
+module ensemble:
+ 
+function forwardTrainTickCNN(integer): float;
+procedure backwardTrainTickCNN()(integer);
+procedure updateTrainTickCNN()(integer);
+ 
+procedure forwardValidTickCNN()(integer, integer);
+ 
+procedure tryBackup()();
+ 
+procedure updateOutput()(integer);
+procedure runValidTest()();
+ 
+function inTrainBounds(integer, float): integer;
+function getSeen(integer): float;
+function maxEpochs(integer): integer;
+function getTrainSamples(): integer;
+ 
+output trained:=0:integer, validated:=0:integer;
+ 
+% main train thread
+var loss1: float, num_valid:=0:integer in
+loop
+    pause;
+    [
+        if(maxEpochs(0) = 0) then
+            [
+                loss1 := forwardTrainTickCNN(0);
+                call backwardTrainTickCNN()(0);
+                call updateTrainTickCNN()(0);
+            ];
+            call tryBackup()();
+        else
+            emit trained(1);
+        end if;
+
+        ||
+ 
+        if(maxEpochs(0) = 1) then
+            if(pre(?trained) = 1) then
+            [
+                if(num_valid < getTrainSamples()) then
+                    call forwardValidTickCNN()(0, num_valid);
+                    call updateOutput()(num_valid);
+                else
+                    call runValidTest()();
+                    emit validated(1);
+                end if;
+                num_valid := num_valid + 1;
+            ]
+            end if;
+        end if;
+    ]
+end loop;
+end var;
+ 
+ 
+end module

@@ -1,0 +1,7 @@
+20speed
+30speed
+50speed
+60speed
+70speed
+80speed
+100speed
