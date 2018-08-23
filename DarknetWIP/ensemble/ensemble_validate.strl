@@ -1,0 +1,26 @@
+module ensemble_validate:
+
+procedure forwardValidTickCNN()(integer, integer);
+procedure updateOutput()(integer);
+procedure runValidTest()();
+
+function getTrainSamples(): integer;
+
+output validated:= 0:integer;
+
+var num_valid:=0 integer in
+loop
+    pause;
+    [
+        if(num_valid < getTrainSamples()) then
+            call forwardValidTickCNN()(0, num_valid);
+            call updateOutput()(num_valid);
+        else
+            call runValidTest()();
+            emit validated(1);
+        end if;
+        num_valid := num_valid + 1;
+    ]
+end loop
+end var
+end module

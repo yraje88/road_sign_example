@@ -1,4 +1,5 @@
 #include "ensemble.h"
+#include "ensemble_validate.h"
 #include <string.h>
 #include <stdio.h>
 

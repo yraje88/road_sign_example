@@ -3,7 +3,7 @@
 
 #include "../darknet/include/darknet.h"
 
-#define NUM_CLASSES             7
+#define NUM_CLASSES             6
 #define TOPK                    2
 #define NUM_NETS                1
 

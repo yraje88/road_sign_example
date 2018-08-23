@@ -2,6 +2,7 @@
 
 // Esterel inputs/running functions
 int ensemble();
+int ensemble_validate();
 
 int trained = 0;
 int validated = 0;
@@ -226,7 +227,7 @@ void valid_tmr(char *datacfg, char *cfgfile, char *weightfile, int full)
         }
 
         if(full || i == m - 1)
-            printf("%d: top 1: %f, top %d: %f\n", i, avg_acc/(i+1), topk, avg_topk/(i+1));
+            printf("%d: top 1: %f\n", i, avg_acc/(i+1));
     }
     free_network(net);
 }
@@ -275,6 +276,28 @@ void esterel_tmr()
     destructData();
 }
 
+void esterel_validate_tmr()
+{
+    initNets();
+
+    double time = what_time_is_it_now();
+
+    int batches = 0;
+
+    initValidData();
+
+    printf("\n<================ Images to validate: %d ================>\n\n", getTrainSamples());
+    /* while(!validated)
+    {
+        ensemble();
+        batches++;
+    } */
+    printf("\n<=============== Validation complete in %f seconds =================>\n", what_time_is_it_now() - time);
+
+    destructNets();
+    destructData();
+}
+
 // Esterel functions
 void ensemble_O_trained(int train)
 {
@@ -288,17 +311,17 @@ void ensemble_O_validated(int valid)
 void run_tmr(int argc, char **argv)
 {
     // char *tmr_data = "cfg/tmr/tmr.data";
-    char *tmr_data1 = "data/tmr1.data";
+    char *tmr_data1 = "data/tmr.data";
     char *tmr_data2 = "data/tmr2.data";
     char *tmr_data3 = "data/tmr3.data";
 
     // char *tmr_cfg = "cfg/tmr/tmr.cfg";
-    char *tmr_cfg1 = "data/tmr1.cfg";
+    char *tmr_cfg1 = "data/tmr.cfg";
     char *tmr_cfg2 = "data/tmr2.cfg";
     char *tmr_cfg3 = "data/tmr3.cfg";
 
     // char *tmr_weights = "backup/tmr/tmr.weights";
-    char *tmr_weights1 = "backup/tmr1.weights";
+    char *tmr_weights1 = "backup/tmr.weights";
     char *tmr_weights2 = "backup/tmr2.weights";
     char *tmr_weights3 = "backup/tmr3.weights";
 
@@ -309,6 +332,7 @@ void run_tmr(int argc, char **argv)
     else if(0==strcmp(argv[1], "validall")) valid_all(tmr_data1, tmr_cfg1, tmr_weights1, tmr_weights2, tmr_weights3);
     else if(0==strcmp(argv[1], "trainall")) train_tmr_all(tmr_data1, tmr_data2, tmr_data3, tmr_cfg1, tmr_cfg2, tmr_cfg3); 
     else if(0==strcmp(argv[1], "esterel")) esterel_tmr();
+    else if(0==strcmp(argv[1], "esterelVal")) esterel_validate_tmr();
 }
 
 

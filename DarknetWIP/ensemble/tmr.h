@@ -1,5 +1,5 @@
 #include "ensemble.h"
-
+#include "ensemble_validate.h"
 #include <sys/time.h>
 #include <assert.h>
 
@@ -15,10 +15,11 @@ void valid_all(char *datacfg, char * cfgfile, char * weightfile1, char * weightf
 
 void esterel_tmr();
 
+void esterel_validate_tmr();
+
 // Esterel output functions
 void ensemble_O_trained(int train);
 void ensemble_O_validated(int valid);
-
 void run_tmr(int argc, char **argv);
 
 
